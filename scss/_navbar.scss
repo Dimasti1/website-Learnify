@@ -1,0 +1,27 @@
+.navbar {
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: map-get($font-weight, "bold-700");
+    a {
+      color: $black-text;
+    }
+  }
+  btn {
+    font-size: 16px;
+    font-weight: map-get($font-weight, "semibold-600");
+  }
+  .dropdown-item {
+    font-weight: map-get($font-weight, medium-500);
+  }
+  ul {
+    li {
+      a {
+        font-weight: map-get($font-weight, "semibold-600");
+        color: rgb(104, 104, 104);
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}

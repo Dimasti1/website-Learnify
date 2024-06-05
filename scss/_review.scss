@@ -1,0 +1,44 @@
+//---------------------------Start Style Review---------------------------
+.testimoni {
+
+  // height: 884px;
+  // background-color: $l;
+  .bxs-quote-right {
+    color: $white;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: map-get($font-weight, bold-700);
+  }
+
+  p {
+    color: $light;
+  }
+
+  .user {
+    .name {
+      color: $white;
+      font-weight: map-get($font-weight, bold-700);
+    }
+
+    .status {
+      font-weight: map-get($font-weight, reguler-400);
+      color: $white;
+      line-height: 16px;
+    }
+  }
+
+  .card {
+    border: none;
+    background-color: $primary;
+
+    .rate {
+      font-size: 18px;
+      color: $yellow;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+//---------------------------End Style Review---------------------------

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+.left-side a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.left-side a p {
+  color: #212529;
+  font-weight: 700;
+}
+
+.left-side h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.left-side h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right-side label {
+  font-weight: 600;
+}
+
+.right-side p {
+  font-weight: 500;
+}
+
+.right-side p a {
+  text-decoration: none;
+}
+
+.container-login-regis .right-side {
+  background-color: #9ec5fe;
+}
+
+.container-login-regis h5 {
+  color: #212529;
+}
+
+.container-regis {
+  background-color: aqua;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*# sourceMappingURL=login-regis.css.map */

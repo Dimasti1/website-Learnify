@@ -1,0 +1,109 @@
+@import "colors";
+@import "fonts";
+@import "navbar";
+@import "footer";
+@import "login-regis";
+
+body {
+
+  // Sidebar--------------
+  .sidebar {
+    background-color: $secondary;
+
+    h5 {
+      font-size: 18px;
+      font-weight: map-get($font-weight, bold-700);
+    }
+
+    a {
+      color: $black-text;
+      font-size: 18px;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  //   Kelas
+
+  //---------------------------Start Style Product---------------------------
+  .container-product {
+
+    // margin-top: 1000px;
+    h1 {
+      font-size: 34px;
+      font-weight: map-get($font-weight, "bold-700");
+    }
+
+    .card {
+      border: none;
+      box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 16px 16px;
+      border-radius: 8px;
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      .img-box {
+        max-width: 435px;
+        max-height: 290px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+
+        .bg-img {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.17%, #000000 100%);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+
+          .info {
+            position: absolute;
+            bottom: 20px;
+          }
+
+          .member {
+            font-weight: map-get($font-weight, medium-500);
+            color: $white;
+          }
+
+          i {
+            font-weight: 30px;
+            color: $yellow;
+          }
+        }
+      }
+
+      .product-caption {
+        .product-name {
+          font-size: 18px;
+          font-weight: map-get($font-weight, medium-500);
+        }
+
+        .info-video {
+          font-size: 18px;
+          font-weight: map-get($font-weight, bold-700);
+          color: $secondary;
+        }
+      }
+
+      .badge {
+        color: $black-text;
+        background-color: $secondary;
+      }
+    }
+  }
+
+  //---------------------------End Style Product---------------------------
+
+  .form-label {
+    font-weight: map-get($font-weight, semibold-600);
+  }
+}

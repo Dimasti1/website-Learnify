@@ -1,0 +1,109 @@
+@import "colors";
+@import "fonts";
+@import "navbar";
+@import "review";
+@import "footer";
+// navbar
+
+// .navbar {
+//   .navbar-brand {
+//     font-size: 20px;
+//     font-weight: map-get($font-weight, "bold-700");
+//   }
+//   btn {
+//     font-size: 16px;
+//     font-weight: map-get($font-weight, "semibold-600");
+//   }
+//   .dropdown-item {
+//     font-weight: map-get($font-weight, medium-500);
+//   }
+//   ul {
+//     li {
+//       a {
+//         font-weight: map-get($font-weight, "semibold-600");
+
+//         &:hover {
+//           color: $primary;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// end navbar
+
+span {
+  color: $primary;
+}
+
+body {
+  background-color: $light;
+
+  h6 {
+    color: $primary;
+  }
+
+  h4 {
+    font-weight: map-get($font-weight, bold-700);
+  }
+}
+
+// Hero--------------
+.hero {
+  h2 {
+    font-size: 40px;
+    font-weight: map-get($font-weight, bold-700);
+  }
+}
+
+// Sidebar--------------
+.sidebar {
+  background-color: $secondary;
+
+  h5 {
+    font-size: 18px;
+    font-weight: map-get($font-weight, bold-700);
+  }
+
+  a {
+    color: $black-text;
+    font-size: 18px;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.mentor-kelas {
+  .d-flex {
+    img {
+      height: 38px;
+    }
+  }
+
+  .desk {
+    text-align: justify;
+  }
+}
+
+.text {
+  font-weight: map-get($font-weight, medium-500);
+}
+
+//---------------------------Start Style Kurikulum---------------------------
+.kurikulum-program {
+  .accordion {
+    .accordion-button {
+      background-color: $light;
+      font-weight: map-get($font-weight, semibold-600);
+    }
+
+    li {
+      font-size: 16px;
+    }
+  }
+}
+
+//---------------------------End Style Kurikulum---------------------------

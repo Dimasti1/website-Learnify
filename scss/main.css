@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+footer .navbar-brand {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer .navbar-brand:hover {
+  color: #f8f9fa;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer i {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container-login-regis .right-side {
+  background-color: #9ec5fe;
+}
+
+.container-regis {
+  background-color: palegreen;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span {
+  color: #0d6efd;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .dropdown-item {
+  font-weight: 500;
+}
+
+.navbar ul li a {
+  font-weight: 600;
+}
+
+.navbar ul li a:hover {
+  color: #0d6efd;
+}
+
+.container-hero h1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container-hero p {
+  font-weight: 500;
+  color: #212529;
+}
+
+.value-1 {
+  background-color: #9ec5fe;
+}
+
+.value-1 h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.container-card {
+  background-color: #fff;
+}
+
+.container-card .bg-icon {
+  background-color: #ffda6a;
+}
+
+.container-card:hover {
+  background-color: #0d6efd;
+}
+
+.container-card:hover .bg-icon {
+  background-color: white;
+}
+
+.container-card:hover h4,
+.container-card:hover p {
+  color: white;
+}
+
+.value-2 h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.value-2 .card-value-2 {
+  background-color: #fff;
+  box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.value-2 .card-value-2 .heading-card {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.value-2 .card-value-2 .bg-icon {
+  background-color: #0d6efd;
+}
+
+.value-2 .card-value-2:hover {
+  background-color: #0d6efd;
+}
+
+.value-2 .card-value-2:hover .bg-icon {
+  background-color: #fff;
+}
+
+.value-2 .card-value-2:hover h4,
+.value-2 .card-value-2:hover p {
+  color: #fff;
+}
+
+.container-product {
+  margin-top: 1000px;
+}
+
+.container-product h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.container-product .card {
+  border: none;
+  box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px 16px;
+  border-radius: 8px;
+}
+
+.container-product .card:hover img {
+  transform: scale(1.1);
+}
+
+.container-product .card .img-box {
+  max-width: 435px;
+  max-height: 290px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container-product .card .img-box .bg-img {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.17%, #000000 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-product .card .img-box .bg-img .info {
+  position: absolute;
+  bottom: 20px;
+}
+
+.container-product .card .img-box .bg-img .member {
+  font-weight: 500;
+  color: #fff;
+}
+
+.container-product .card .img-box .bg-img i {
+  font-weight: 30px;
+  color: #ffda6a;
+}
+
+.container-product .card .product-caption .product-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container-product .card .product-caption .info-video {
+  font-size: 18px;
+  font-weight: 700;
+  color: #9ec5fe;
+}
+
+.container-product .card .badge {
+  color: #212529;
+  background-color: #9ec5fe;
+}
+
+.container-review {
+  background-color: #9ec5fe;
+}
+
+.container-review h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.container-review p {
+  color: #f8f9fa;
+}
+
+.container-review .card {
+  border: none;
+  background-color: #0d6efd;
+}
+
+.container-review .card .rate {
+  font-size: 30px;
+  color: #ffda6a;
+}
+
+.container-cta h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

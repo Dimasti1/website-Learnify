@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand a {
+  color: #212529;
+}
+
+.navbar btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .dropdown-item {
+  font-weight: 500;
+}
+
+.navbar ul li a {
+  font-weight: 600;
+  color: #686868;
+}
+
+.navbar ul li a:hover {
+  color: #9ec5fe;
+}
+
+footer .navbar-brand {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer .navbar-brand:hover {
+  color: #f8f9fa;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer i {
+  font-size: 24px;
+}
+
+.accordion .accordion-button {
+  background: #1c69db;
+  color: white;
+  text-align: center;
+}
+
+.accordion .accordion-body {
+  background: #e9ecef;
+}
+
+.btn {
+  background-color: #9ec5fe;
+  border: none;
+  color: black;
+  padding: 10px 28px;
+  text-align: left;
+  font-size: 16px;
+  margin: 2px 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: #f8f9fa;
+  background-color: #0d6efd;
+}
+
+/*# sourceMappingURL=materi.css.map */
